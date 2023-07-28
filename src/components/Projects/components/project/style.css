@@ -1,0 +1,46 @@
+/* .project */
+.project {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+    border-top: 1px solid rgb(201, 201, 201);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  /* .project h2 */
+  .project h2 {
+    font-size: 60px;
+    margin: 0px;
+    font-weight: 400;
+    transition: all 0.4s;
+  }
+  
+  /* .project p */
+  .project p {
+    transition: all 0.4s;
+    font-weight: 300;
+  }
+  
+  /* .project:hover */
+  .project:hover {
+    opacity: 0.5;
+  }
+  
+  /* .project:hover h2 */
+  .project:hover h2 {
+    transform: translateX(-10px);
+  }
+  
+  /* .project:hover p */
+  .project:hover p {
+    transform: translateX(10px);
+  }
+  
+  /* .project:last-of-type */
+  .project:last-of-type {
+    border-bottom: 1px solid rgb(201, 201, 201);
+  }
+  
