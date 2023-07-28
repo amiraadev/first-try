@@ -1,5 +1,5 @@
 'use client';
-import './style.css'
+import  './style.css'
 import { useState, useEffect, useRef } from 'react';
 import Project from './components/project';
 import { motion } from 'framer-motion';
