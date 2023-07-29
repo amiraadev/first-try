@@ -7,6 +7,7 @@ import Preloader from '../components/Preloader';
  import Description from '../components/Description';
  import SlidingImages from '../components/SlidingImages';
 import Contact from '../components/Contact';
+ import Skills from '../components/Skills';
 
 export default function Home() {
 
@@ -30,14 +31,15 @@ export default function Home() {
   return (
     // <main className={styles.main}>
     <main >
-        <AnimatePresence mode='wait'>
+         <AnimatePresence mode='wait'>
           {isLoading && <Preloader />}
         </AnimatePresence>
         <Landing />
         <Description />
-        <Projects />
+        <Skills/>
+         <Projects />
         <SlidingImages />
-      <Contact /> 
+      <Contact />  
     </main>
   )
 }
