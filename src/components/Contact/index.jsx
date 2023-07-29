@@ -40,10 +40,10 @@ export default function index() {
                 </div>
                 <div className="nav">
                         <Rounded>
-                            <p>info@dennissnellenberg.com</p>
+                            <p>allagui_amira@yahoo.com</p>
                         </Rounded>
                         <Rounded>
-                            <p>+31 6 27 84 74 30</p>
+                            <p>+216 50 698 639</p>
                         </Rounded>
                 </div>
                 <div className="info">

@@ -3,10 +3,10 @@ import { useEffect, useState } from 'react'
 // import { AnimatePresence } from 'framer-motion';
 // import Preloader from '../components/Preloader';
 //  import Landing from '../components/Landing';
- import Projects from '../components/Projects';
+//  import Projects from '../components/Projects';
 //  import Description from '../components/Description';
 //  import SlidingImages from '../components/SlidingImages';
-// import Contact from '../components/Contact';
+import Contact from '../components/Contact';
 //  import Skills from '../components/Skills';
 
 export default function Home() {
@@ -38,8 +38,8 @@ export default function Home() {
         {/* <Description />
        <Skills/> 
           <SlidingImages />*/}
-        <Projects />
-     {/*  <Contact />   */}
+        {/* <Projects /> */}
+      <Contact />  
     </main>
   )
 }
