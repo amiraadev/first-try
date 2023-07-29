@@ -10,22 +10,22 @@ import Rounded from '../../common/RoundedButton';
 const projects = [
   {
     title: "Frontend",
-    src: "c2montreal.png",
+    src: "frontend.png",
     color: "#000000"
   },
   {
     title: "Backend",
-    src: "officestudio.png",
+    src: "backend.png",
     color: "#8C8C8C"
   },
   {
     title: "Database",
-    src: "locomotive.png",
+    src: "database.png",
     color: "#EFE8D3"
   },
   {
     title: "DevOps",
-    src: "silencio.png",
+    src: "devops.png",
     color: "#706D63"
   }
 ]
@@ -85,9 +85,6 @@ export default function Home() {
         })
       }
     </div>
-    <Rounded>
-      <p>More work</p>
-    </Rounded>
     <>
         <motion.div ref={modalContainer} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"} className="modalContainer">
             <div style={{top: index * -100 + "%"}} className="modalSlider">
