@@ -5,39 +5,47 @@ import Image from 'next/image';
 
 const slider1 = [
     {
-        color: "#e3e5e7",
-        src: "c2.jpg"
+        color: "#4d5055",
+        src: "c2.jpg",
+        link:"https://amirticha.github.io/gym-app/"
     },
     {
-        color: "#d6d7dc",
-        src: "decimal.jpg"
+        color: "#4d5055",
+        src: "decimal.jpg",
+        link:"https://amirticha.github.io/gym-app/"
     },
     {
-        color: "#e3e3e3",
-        src: "funny.jpg"
+        color: "#4d5055",
+        src: "funny.jpg",
+        link:"https://amirticha.github.io/gym-app/"
     },
     {
-        color: "#21242b",
-        src: "google.jpg"
+        color: "#4d5055",
+        src: "google.jpg",
+        link:"https://amirticha.github.io/gym-app/"
     }
 ]
 
 const slider2 = [
     {
-        color: "#d4e3ec",
-        src: "maven.jpg"
+        color: "#4d5055",
+        src: "maven.jpg",
+        link:"https://amirticha.github.io/gym-app/"
     },
     {
-        color: "#e5e0e1",
-        src: "panda.jpg"
+        color: "#4d5055",
+        src: "panda.jpg",
+        link:"https://amirticha.github.io/gym-app/"
     },
     {
-        color: "#d7d4cf",
-        src: "powell.jpg"
+        color: "#4d5055",
+        src: "powell.jpg",
+        link:"https://amirticha.github.io/gym-app/"
     },
     {
-        color: "#e1dad6",
-        src: "wix.jpg"
+        color: "#4d5055",
+        src: "wix.jpg",
+        link:"https://amirticha.github.io/gym-app/"
     }
 ]
 
@@ -53,17 +61,23 @@ export default function index() {
     const x2 = useTransform(scrollYProgress, [0, 1], [0, -150])
     const height = useTransform(scrollYProgress, [0, 0.9], [50, 0])
 
+    
+
     return (
         <div ref={container} className="slidingImages">
             <motion.div style={{x: x1}} className="slider">
                     {
                         slider1.map( (project, index) => {
+                            const handleClick = () => {
+                                window.location.href = project.link;
+                              };
                             return <div className="project" style={{backgroundColor: project.color}} >
                                 <div key={index} className="imageContainer">
                                     <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={`/images/${project.src}`}/>
+                                    src={`/images/${project.src}`}
+                                    onClick={handleClick}/>
                                 </div>
                             </div>
                         })
@@ -72,12 +86,17 @@ export default function index() {
                 <motion.div style={{x: x2}} className="slider">
                     {
                         slider2.map( (project, index) => {
+                            const handleClick = () => {
+                                window.location.href = project.link;
+                              };
                             return <div className="project" style={{backgroundColor: project.color}} >
                                 <div key={index} className="imageContainer">
                                     <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={`/images/${project.src}`}/>
+                                    src={`/images/${project.src}`}
+                                    onClick={handleClick}/>
+                                    
                                 </div>
                             </div>
                         })

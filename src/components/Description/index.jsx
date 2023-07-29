@@ -11,6 +11,7 @@ export default function index() {
     return (
         <div ref={description} className="description">
             <div className="body">
+    
                 <p>
                 {
                     phrase.split(" ").map( (word, index) => {

@@ -12,7 +12,7 @@
     font-size: 18px;
     width: 100%;
     font-weight: 300;
-    color:#a0aec0;  
+    /* color:#a0aec0;   */
    }
 
 .icon {
@@ -27,9 +27,9 @@
     z-index: 100;
 }
 
- span{
+ /* span{
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing:3px;
     opacity: .7;
-}
+} */

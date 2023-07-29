@@ -9,22 +9,22 @@ import Rounded from '../../common/RoundedButton';
 
 const projects = [
   {
-    title: "C2 Montreal",
+    title: "Frontend",
     src: "c2montreal.png",
     color: "#000000"
   },
   {
-    title: "Office Studio",
+    title: "Backend",
     src: "officestudio.png",
     color: "#8C8C8C"
   },
   {
-    title: "Locomotive",
+    title: "Database",
     src: "locomotive.png",
     color: "#EFE8D3"
   },
   {
-    title: "Silencio",
+    title: "DevOps",
     src: "silencio.png",
     color: "#706D63"
   }
@@ -107,7 +107,7 @@ export default function Home() {
             </div>
         </motion.div>
         <motion.div ref={cursor} className="cursor" variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"}></motion.div>
-        <motion.div ref={cursorLabel} className="cursorLabel" variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"}>View</motion.div>
+        {/* <motion.div ref={cursorLabel} className="cursorLabel" variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"}>View</motion.div> */}
     </>
   </main>
   )
