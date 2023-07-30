@@ -4,6 +4,7 @@ import Rounded from '../../common/RoundedButton';
 import { useRef } from 'react';
 import { useScroll, motion, useTransform, useSpring } from 'framer-motion';
 import Magnetic from '../../common/Magnetic';
+import Email from '../Email';
 
 export default function index() {
     const container = useRef(null);
@@ -38,6 +39,7 @@ export default function index() {
                         <path d="M8 8.5C8.27614 8.5 8.5 8.27614 8.5 8L8.5 3.5C8.5 3.22386 8.27614 3 8 3C7.72386 3 7.5 3.22386 7.5 3.5V7.5H3.5C3.22386 7.5 3 7.72386 3 8C3 8.27614 3.22386 8.5 3.5 8.5L8 8.5ZM0.646447 1.35355L7.64645 8.35355L8.35355 7.64645L1.35355 0.646447L0.646447 1.35355Z" fill="white"/>
                     </motion.svg>
                 </div>
+                <Email/>
                 <div className="nav">
                         <Rounded>
                             <p>allagui_amira@yahoo.com</p>
@@ -50,29 +52,23 @@ export default function index() {
                     <div>
                         <span>
                             <h3>Version</h3>
-                            <p>2022 © Edition</p>
-                        </span>
-                        <span>
-                            <h3>Version</h3>
-                            <p>11:49 PM GMT+2</p>
+                            <p>2023 © Edition</p>
                         </span>
                     </div>
                     <div>
                         <span>
                             <h3>socials</h3>
-                            <Magnetic>
-                                <p>Awwwards</p>
-                            </Magnetic>
+                            <a href='https://github.com/amirticha'>
+                                <Magnetic>
+                                    <p>Github</p>
+                                </Magnetic>
+                            </a>
                         </span>
-                        <Magnetic>
-                            <p>Instagram</p>
-                        </Magnetic>
-                        <Magnetic>
-                            <p>Dribbble</p>
-                        </Magnetic>
-                        <Magnetic>
-                            <p>Linkedin</p>
-                        </Magnetic>
+                           <a href='https://www.linkedin.com/in/allagui-amira/'>
+                                <Magnetic>
+                                    <p>Linkedin</p>
+                                </Magnetic>
+                            </a>                    
                     </div>
                 </div>
             </div>

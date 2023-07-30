@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react'
 //  import SlidingImages from '../components/SlidingImages';
 import Contact from '../components/Contact';
 //  import Skills from '../components/Skills';
-  import Email from '../components/Email';
+  // import Email from '../components/Email';
 
 export default function Home() {
 
@@ -40,8 +40,8 @@ export default function Home() {
        <Skills/> 
           <SlidingImages />*/}
         {/* <Projects /> */}
-      {/* <Contact />   */}
-      <Email />  
+      <Contact />  
+      {/* <Email />   */}
     </main>
   )
 }
