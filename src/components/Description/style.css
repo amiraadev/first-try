@@ -22,7 +22,7 @@
   
   /* .description .body p:nth-of-type(1) */
   .description .body p:nth-of-type(1) {
-    font-size: 36px;
+    font-size: 20px;
     gap: 8px;
     line-height: 1.3;
   }
