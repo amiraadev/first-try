@@ -30,7 +30,7 @@ export default function index() {
                     </span>
                     <h2>together</h2>
                     <motion.div style={{x}} className="buttonContainer">
-                        <Rounded  backgroundColor={"#334BD3"} className="button">
+                        <Rounded  backgroundColor={"#530000"} className="button">
                             <a href='/Email'>
                             <p>Get in touch</p>
                             </a>          
