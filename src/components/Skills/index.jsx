@@ -5,6 +5,7 @@ import { useRef } from 'react';
 import { FaCode ,FaServer,FaDatabase,FaInfinity } from 'react-icons/fa';
 
 import Rounded from '../../common/RoundedButton';
+import Image from 'next/image';
 export default function index() {
 
     const description = useRef(null);
@@ -12,8 +13,24 @@ export default function index() {
     return (
         <div  ref={description} className="skill-description">
             
-            <div className=' h-full w-full '>
-        <div className="flex flex-col md:gap-14 p-5">
+        <div className=' h-full w-full '>
+        <div className="flex flex-col md:gap-14 p-5 md:p-20">
+           <h1 className=' text-left md:text-6xl md:pr-14'>Fostering digital excellence: Nurturing growth in the digital realm</h1>
+           <hr className=" border-t-1 border-gray-700 my-4 "/>
+             <div  className="w-full flex  flex-wrap md:flex-row md:flex-nowrap md:gap-10 md:p-20"> 
+                <div  className="flex-1 "> 
+                hello
+                </div>
+                <div  className="flex"> 
+                    <Image 
+                        src="/images/background.jpg"
+                        width={"600"}
+                        height={"600"}
+                        // fill={true}
+                        alt="background"
+                    />
+                </div>
+             </div>
            <h1 className='title md:mt-24'>I can help you with ...</h1>
             <div  className="w-full flex  flex-wrap md:flex-row md:flex-nowrap md:gap-10"> 
             {/* frontend */}

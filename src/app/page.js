@@ -7,7 +7,6 @@ import Preloader from '../components/Preloader';
  import Description from '../components/Description';
  import SlidingImages from '../components/SlidingImages';
 import Contact from '../components/Contact';
- import Skills from '../components/Skills';
 
 export default function Home() {
 
