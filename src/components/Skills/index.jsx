@@ -18,13 +18,14 @@ export default function index() {
            <h1 className=' text-left md:text-6xl md:pr-14'>Fostering digital excellence: Nurturing growth in the digital realm</h1>
            <hr className=" border-t-1 border-gray-700 my-4 "/>
              <div  className="w-full flex  flex-wrap md:flex-row md:flex-nowrap md:gap-10 md:p-20"> 
-                <div  className="flex-1 "> 
-                hello
+                <div  className="flex-1 md:p-16"> 
+                With each project, I push my work to new horizons, always putting quality first.
+                As a software engineer, I'm committed to constant growth and delivering excellence to drive impactful outcomes.
                 </div>
                 <div  className="flex"> 
                     <Image 
                         src="/images/background.jpg"
-                        width={"600"}
+                        width={"800"}
                         height={"600"}
                         // fill={true}
                         alt="background"
