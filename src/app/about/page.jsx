@@ -30,7 +30,7 @@ function page() {
           {isLoading && <PreAbout />}
         </AnimatePresence>
         <Skills />
-        <Contact />
+        {/* <Contact /> */}
     
     </main>
   )
