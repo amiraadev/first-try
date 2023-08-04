@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { AnimatePresence } from 'framer-motion';
 import PreAbout from '../../components/PreAbout';
 import Skills from '../../components/Skills';
+import Contact from '../../components/Contact';
 
 function page() {
   const [isLoading, setIsLoading] = useState(true);
@@ -29,6 +30,7 @@ function page() {
           {isLoading && <PreAbout />}
         </AnimatePresence>
         <Skills />
+        <Contact />
     
     </main>
   )
