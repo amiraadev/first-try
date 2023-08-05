@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@studio-freight/lenis": "^1.0.19",
     "autoprefixer": "10.4.14",
     "framer-motion": "^10.13.0",
     "gsap": "^3.12.2",
