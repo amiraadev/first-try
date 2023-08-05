@@ -46,8 +46,7 @@ export default function index() {
                     />
                 </motion.div>
              </motion.div>
-             <h1 className='title md:mt-24'>I can help you with ...</h1>
-
+           
         </motion.div>
     </div>
         </div>

@@ -20,12 +20,13 @@ export default function index() {
     
 
     return (
-        <div ref={container} className="slidingImages">
-                <motion.div style={{x: x1}} className="slider">
-                   
-                </motion.div>
-                <motion.div style={{x: x2}} className="slider">
-            <div  className="w-full flex  flex-wrap md:flex-row md:flex-nowrap md:gap-10"> 
+    <div ref={container} className="slidingImages">
+        <h1 className='title md:mt-24'>I can help you with ...</h1>
+        
+        <motion.div style={{x: x2}} className="slider">
+            <div  className="w-full flex  flex-wrap md:flex-row md:flex-nowrap md:gap-10 md:mx-32"> 
+            <div></div>
+            <div></div>
             {/* frontend */}
                  <div  className="md:w-1/4 sm:1/2 p-4">
                     <FaCode className="icon"/>
