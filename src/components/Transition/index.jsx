@@ -2,52 +2,8 @@ import { useRef } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import  './style.css';
 import Image from 'next/image';
+import { FaCode ,FaServer,FaDatabase,FaInfinity } from 'react-icons/fa';
 
-const slider1 = [
-    {
-        color: "#4d5055",
-        src: "c2.jpg",
-        link:"https://amirticha.github.io/gym-app/"
-    },
-    {
-        color: "#4d5055",
-        src: "decimal.jpg",
-        link:"https://amirticha.github.io/gym-app/"
-    },
-    {
-        color: "#4d5055",
-        src: "funny.jpg",
-        link:"https://amirticha.github.io/gym-app/"
-    },
-    {
-        color: "#4d5055",
-        src: "google.jpg",
-        link:"https://amirticha.github.io/gym-app/"
-    }
-]
-
-const slider2 = [
-    {
-        color: "#4d5055",
-        src: "maven.jpg",
-        link:"https://amirticha.github.io/gym-app/"
-    },
-    {
-        color: "#4d5055",
-        src: "panda.jpg",
-        link:"https://amirticha.github.io/gym-app/"
-    },
-    {
-        color: "#4d5055",
-        src: "powell.jpg",
-        link:"https://amirticha.github.io/gym-app/"
-    },
-    {
-        color: "#4d5055",
-        src: "wix.jpg",
-        link:"https://amirticha.github.io/gym-app/"
-    }
-]
 
 export default function index() {
 
@@ -65,42 +21,49 @@ export default function index() {
 
     return (
         <div ref={container} className="slidingImages">
-            <motion.div style={{x: x1}} className="slider">
-                    {
-                        slider1.map( (project, index) => {
-                            const handleClick = () => {
-                                window.location.href = project.link;
-                              };
-                            return <div className="project" style={{backgroundColor: project.color}} >
-                                <div key={index} className="imageContainer">
-                                    <Image 
-                                    fill={true}
-                                    alt={"image"}
-                                    src={`/images/${project.src}`}
-                                    onClick={handleClick}/>
-                                </div>
-                            </div>
-                        })
-                    }
+                <motion.div style={{x: x1}} className="slider">
+                   
                 </motion.div>
                 <motion.div style={{x: x2}} className="slider">
-                    {
-                        slider2.map( (project, index) => {
-                            const handleClick = () => {
-                                window.location.href = project.link;
-                              };
-                            return <div className="project" style={{backgroundColor: project.color}} >
-                                <div key={index} className="imageContainer">
-                                    <Image 
-                                    fill={true}
-                                    alt={"image"}
-                                    src={`/images/${project.src}`}
-                                    onClick={handleClick}/>
-                                    
-                                </div>
-                            </div>
-                        })
-                    }
+            <div  className="w-full flex  flex-wrap md:flex-row md:flex-nowrap md:gap-10"> 
+            {/* frontend */}
+                 <div  className="md:w-1/4 sm:1/2 p-4">
+                    <FaCode className="icon"/>
+                    <hr className=" border-t-2 border-gray-500 my-4 "/>
+                    <h2 className='text-4xl text-left my-4 '>Frontend </h2>
+                    <div className="text-box " >
+                           <p>I build scalable websites from scratch that fit seamlessly with design.</p>
+                           <p>My expertise lies in creating captivating micro animations, smooth transitions, and engaging interactions that bring websites to life.</p>
+                    </div>
+                 </div> 
+            {/* Backend */}
+                 <div  className="md:w-1/4 sm:1/2 p-4">
+                    <FaServer className="icon"/> 
+                    <hr className=" border-t-2 border-gray-500 my-4 "/>
+                    <h2 className='text-4xl text-left my-4 '>Backend </h2>
+                    <div className="text-box ">
+                           <p>Whether it&apos;s building RESTful services, integrating third-party APIs, or optimizing server response times, my focus remains on delivering a seamless user experience through my backend craftsmanship.</p>
+                    </div>
+                 </div> 
+            {/* Database */}
+                 <div  className="md:w-1/4 sm:1/2 p-4">
+                    <FaDatabase className="icon"/>
+                    <hr className=" border-t-2 border-gray-500 my-4 "/>
+                    <h2 className='text-4xl text-left my-4 '>Database </h2>
+                    <div className="text-box ">
+                           <p>I meticulously organize data models to enhance data integrity and facilitate data retrieval, ensuring optimal performance even with large datasets.</p>
+                    </div>
+                 </div> 
+            {/* DevOps */}
+                 <div  className="md:w-1/4 sm:1/2 p-4">
+                    <FaInfinity className="icon"/>
+                    <hr className=" border-t-2 border-gray-500 my-4 "/>
+                    <h2 className='text-4xl text-left my-4 '>DevOps </h2>
+                    <div className="text-box ">
+                      <p>As a DevOps practitioner, I focus on automating and integrating various stages of the development lifecycle, from continuous integration (CI) to continuous delivery (CD).</p>       
+                    </div>
+                 </div>
+            </div>
                 </motion.div>
                 <motion.div style={{height}} className="circleContainer">
                     <div className="circle"></div>

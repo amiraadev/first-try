@@ -5,7 +5,7 @@
     gap: 3vw;
     position: relative;
     margin-top: 200px;
-    background-color: black;
+    background-color: #222;
     z-index: 1;
   }
   
@@ -51,7 +51,8 @@
     width: 120%;
     left: -10%;
     border-radius: 0 0 50% 50%;
-    background-color: white;
+    /* background-color: white; */
+    background-color: #222;
     z-index: 10;
     position: absolute;
     /* box-shadow: 0px 60px 50px rgba(250, 247, 247, 0.979); */
