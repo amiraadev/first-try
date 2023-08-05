@@ -21,7 +21,7 @@ export default function index() {
 
     return (
     <div ref={container} className="slidingImages">
-        <h1 className='title md:mt-24'>I can help you with ...</h1>
+        <h1 className='title md:mb-24 md:ml-24'>I can help you with ...</h1>
         
         <motion.div style={{x: x2}} className="slider">
             <div  className="w-full flex  flex-wrap md:flex-row md:flex-nowrap md:gap-10 md:mx-32"> 

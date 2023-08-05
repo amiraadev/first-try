@@ -66,7 +66,7 @@ export default function index() {
         </div>
         <div ref={button} className="headerButtonContainer">
             <Rounded onClick={() => {setIsActive(!isActive)}} className={`button`}>
-                <div className={`burger ${isActive ? styles.burgerActive : ""}`}></div>
+                <div className={`burger ${isActive ? "burgerActive" : ""}`}></div>
             </Rounded>
         </div>
         <AnimatePresence mode="wait">
