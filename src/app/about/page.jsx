@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { AnimatePresence } from 'framer-motion';
 import PreAbout from '../../components/PreAbout';
 import Skills from '../../components/Skills';
+import Transition from '../../components/Transition';
 import Contact from '../../components/Contact';
 
 function page() {
@@ -26,11 +27,12 @@ function page() {
 
   return (
     <main >
-        <AnimatePresence mode='wait'>
+        {/* <AnimatePresence mode='wait'>
           {isLoading && <PreAbout />}
-        </AnimatePresence>
+        </AnimatePresence> */}
         <Skills />
-        {/* <Contact /> */}
+        <Transition /> 
+        <Contact /> 
     
     </main>
   )
