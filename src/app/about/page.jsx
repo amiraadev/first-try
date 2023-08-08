@@ -27,9 +27,9 @@ function page() {
 
   return (
     <main >
-        {/* <AnimatePresence mode='wait'>
+        <AnimatePresence mode='wait'>
           {isLoading && <PreAbout />}
-        </AnimatePresence> */}
+        </AnimatePresence>
         <Skills />
         <Transition /> 
         <Contact /> 

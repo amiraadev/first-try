@@ -35,7 +35,6 @@ export default function Home() {
         </AnimatePresence>
         <Landing />
         <Description />
-        {/* <Skills/>  */}
         <Projects />
         <SlidingImages />
         <Contact />  

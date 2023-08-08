@@ -38,7 +38,7 @@ export default function index() {
                     className="flex"
                     > 
                     <Image 
-                        src="/images/background.jpg"
+                        src="/images/background40.jpg"
                         width={"800"}
                         height={"600"}
                         // fill={true}
