@@ -3,7 +3,7 @@ export const opacity = {
         opacity: 0
     },
     enter: {
-        opacity: 0.75,
+        opacity: 1,
         transition: {duration: 0.5, delay: 0.2}
     },
 }

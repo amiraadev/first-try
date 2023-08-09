@@ -2,7 +2,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import { AnimatePresence } from 'framer-motion';
-import PreAbout from '../../components/PreAbout';
+import PrePage from '../../components/PrePage';
 import Skills from '../../components/Skills';
 import Transition from '../../components/Transition';
 import Contact from '../../components/Contact';
@@ -27,8 +27,8 @@ function page() {
 
   return (
     <main >
-        <AnimatePresence mode='wait'>
-          {isLoading && <PreAbout />}
+        <AnimatePresence >
+          {isLoading && <PrePage page="About" />}
         </AnimatePresence>
         <Skills />
         <Transition /> 

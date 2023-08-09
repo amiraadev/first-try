@@ -4,9 +4,9 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { opacity, slideUp } from './anim';
 
-const words = ["About"]
 
-export default function Index() {
+export default function Index({page}) {
+    const words = [page]
     const [index, setIndex] = useState(0);
     const [dimension, setDimension] = useState({width: 0, height:0});
 
@@ -18,7 +18,7 @@ export default function Index() {
         if(index == words.length - 1) return;
         setTimeout( () => {
             setIndex(index + 1)
-        }, index == 0 ? 1000 : 150)
+        }, index == 0 ? 10 : 150)
     }, [index])
 
     const initialPath = `M0 0 L${dimension.width} 0 L${dimension.width} ${dimension.height} Q${dimension.width/2} ${dimension.height + 300} 0 ${dimension.height}  L0 0`

@@ -20,13 +20,14 @@
   
   /* .introduction svg path */
   .introduction svg path {
-    fill: #141516;
+    fill: #4d5055;
   }
   
   /* .introduction p */
   .introduction p {
     display: flex;
-    color: white;
+    /* color: white; */
+    color: #fff;
     font-size: 42px;
     align-items: center;
     position: absolute;
@@ -38,7 +39,7 @@
     display: block;
     width: 10px;
     height: 10px;
-    background-color: white;
+    background-color: #fff;
     border-radius: 50%;
     margin-right: 10px;
   }

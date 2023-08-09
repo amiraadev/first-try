@@ -27,7 +27,8 @@
   .landing .slider p {
     position: relative;
     margin: 0px;
-    color: rgb(228, 227, 227);
+    color: rgb(254, 252, 252);
+    /* color: rgb(228, 227, 227); */
     font-size: 230px;
     font-weight: 500;
     padding-right: 50px;
