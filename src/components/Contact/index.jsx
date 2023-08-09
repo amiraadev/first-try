@@ -4,6 +4,8 @@ import Rounded from '../../common/RoundedButton';
 import { useRef } from 'react';
 import { useScroll, motion, useTransform, useSpring } from 'framer-motion';
 import Magnetic from '../../common/Magnetic';
+// import ReactWhatsapp from 'react-whatsapp';
+
 
 export default function index() {
     const container = useRef(null);
@@ -49,6 +51,9 @@ export default function index() {
                         </Rounded>
                         <Rounded>
                             <p>+216 50 698 639</p>
+                            {/* <ReactWhatsapp number={"+21695602858"} message={"hello it is me amira"}>
+                                Contact Me on WhatsApp
+                            </ReactWhatsapp> */}
                         </Rounded>
                 </div>
                 <div className="info">

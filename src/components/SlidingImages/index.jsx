@@ -83,24 +83,22 @@ export default function index() {
                         })
                     }
                 </motion.div>
-                <motion.div style={{x: x2}} className="slider">
-                    {
-                        slider2.map( (project, index) => {
-                            const handleClick = () => {
-                                window.location.href = project.link;
-                              };
-                            return <div className="project" style={{backgroundColor: project.color}} >
-                                <div key={index} className="imageContainer">
-                                    <Image 
-                                    fill={true}
-                                    alt={"image"}
-                                    src={`/images/${project.src}`}
-                                    onClick={handleClick}/>
-                                    
-                                </div>
+                <motion.div style={{ x: x2 }} className="slider">
+                    {slider2.map((project, index) => {
+                        const handleClick = () => {
+                        window.open(project.link, '_blank'); // Open link in a new tab
+                        };
+                        return (
+                        <div className="project" style={{ backgroundColor: project.color }}>
+                            <div key={index} className="imageContainer">
+                            {/* Wrap the Image component with an anchor tag */}
+                            <a href={project.link} target="_blank" rel="noopener noreferrer" >
+                                <Image fill={true} alt={"image"} src={`/images/${project.src}`} />
+                            </a>
                             </div>
-                        })
-                    }
+                        </div>
+                        );
+                    })}
                 </motion.div>
                 <motion.div style={{height}} className="circleContainer">
                     <div className="circle"></div>
