@@ -22,7 +22,9 @@ export default function index() {
                 <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>The fusion of my unwavering passion for design, coding, and interaction places me in a unique and dynamic position within the industry.</motion.p>
                 <div data-scroll data-scroll-speed={0.1}>
                     <Rounded className="button">
-                        <p>About me</p>
+                        <a href="/About">
+                           <p>About me</p>
+                        </a>
                     </Rounded>
                 </div>
             </div>

@@ -35,13 +35,15 @@ export default function index() {
                 As a software engineer, I'm committed to constant growth and delivering excellence to drive impactful outcomes.
                 </div>
                 <motion.div  
-                    className="flex"
+                    className="flex " 
                     > 
                     <Image 
-                        src="/images/background40.jpg"
+                        src="/images/allagui5.jpg"
                         width={"800"}
                         height={"600"}
-                        // fill={true}
+                        data-scroll data-scroll-speed="0.3"
+                        objectFit= {"cover"}
+                        //  fill={true}
                         alt="background"
                     />
                 </motion.div>

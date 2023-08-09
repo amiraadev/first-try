@@ -23,7 +23,7 @@ export default function index() {
                             <Image 
                             fill={true}
                             alt={"image"}
-                            src={`/images/background.jpg`}
+                            src={`/images/allagui4.png`}
                             />
                         </div>
                         <h2>Let's work</h2>
