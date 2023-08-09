@@ -50,10 +50,9 @@ export default function index() {
 
                         </Rounded>
                         <Rounded>
+                        <a href="https://wa.me/+21658226493?text=hello" target="_blank" rel="noopener noreferrer" >
                             <p>+216 50 698 639</p>
-                            {/* <ReactWhatsapp number={"+21695602858"} message={"hello it is me amira"}>
-                                Contact Me on WhatsApp
-                            </ReactWhatsapp> */}
+                        </a> 
                         </Rounded>
                 </div>
                 <div className="info">

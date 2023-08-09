@@ -6,12 +6,12 @@ import Image from 'next/image';
 const slider1 = [
     {
         color: "#4d5055",
-        src: "c2.jpg",
-        link:"https://amirticha.github.io/gym-app/"
+        src: "projects/food-ordering-app.png",
+        link:"https://amirticha.github.io/food-ordering-app/"
     },
     {
         color: "#4d5055",
-        src: "decimal.jpg",
+        src: "projects/gym-app.png",
         link:"https://amirticha.github.io/gym-app/"
     },
     {
