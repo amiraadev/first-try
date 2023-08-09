@@ -1,9 +1,30 @@
 "use client"
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState,useEffect} from 'react';
 import emailjs from '@emailjs/browser';
+import PrePage from '../../components/PrePage';
+import { AnimatePresence } from 'framer-motion';
+
 import "./style.css"
 
 export default function index(){
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect( () => {
+    (
+      async () => {
+          const LocomotiveScroll = (await import('locomotive-scroll')).default
+          const locomotiveScroll = new LocomotiveScroll();
+
+          setTimeout( () => {
+            setIsLoading(false);
+            document.body.style.cursor = 'default'
+            window.scrollTo(0,0);
+          }, 500)
+      }
+    )()
+  }, [])
+
   const form = useRef();
 const [name, setName] = useState('')
 const [email, setEmail] = useState('')
@@ -26,6 +47,10 @@ const [message, setMessage] = useState('')
   };
 
   return (
+    <>
+     <AnimatePresence mode='wait'>
+        {isLoading && <PrePage page="Contact" />}
+    </AnimatePresence>
     <div className="form-container">
       <form className="form" ref={form} onSubmit={sendEmail}>
         <div className="form-group">
@@ -43,6 +68,7 @@ const [message, setMessage] = useState('')
         <button className="form-submit-btn" type="submit">Submit</button>
       </form>
     </div>
+    </>
    
   );
 };
