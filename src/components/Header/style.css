@@ -176,3 +176,21 @@
     top: 0px;
   }
   
+
+  @media (max-width: 768px) {
+    .header {
+   
+        position: absolute;
+        display: flex;
+        z-index: 1;
+        top: 0;
+        color: white;
+        padding: 15px;
+        justify-content: space-between;
+        width: 100%;
+        font-weight: 300;
+        box-sizing: border-box;
+        align-items: center;
+    
+  }
+}
