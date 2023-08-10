@@ -10,7 +10,7 @@ export default function index() {
     const isInView = useInView(description)
     return (
         <div ref={description} className="description">
-            <div className="body">
+            <div className="body flex-col md:flex-row">
     
                 <p>
                 {
@@ -20,7 +20,7 @@ export default function index() {
                 }
                 </p>
                 <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>The fusion of my unwavering passion for design, coding, and interaction places me in a unique and dynamic position within the industry.</motion.p>
-                <div data-scroll data-scroll-speed={0.1}>
+                <div className='mt-20 md:mt-80' data-scroll data-scroll-speed={0.1}>
                     <Rounded className="button">
                         <a href="/About">
                            <p>About me</p>
