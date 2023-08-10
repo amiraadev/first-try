@@ -56,7 +56,7 @@ export default function index() {
                         </Rounded>
                 </div>
                
-                <div className="mobile-screen flex flex-row justify-between mt-8 mb-2 md:hidden">
+                <div className="mobile-screen flex flex-row justify-between mt-8  md:hidden">
                         <div>
                                 <span>
                                     <h3>Version</h3>
