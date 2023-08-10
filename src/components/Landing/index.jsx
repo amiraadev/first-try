@@ -53,7 +53,8 @@ export default function Home() {
   />
       </div> */}
          <Image 
-        src="/images/background.jpg"
+        // src="/images/background.jpg"
+        src="/images/amira-background-3.png"
         fill={true}
         alt="background"
       />
