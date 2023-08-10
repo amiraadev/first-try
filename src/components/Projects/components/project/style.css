@@ -17,6 +17,7 @@
     font-weight: 400;
     transition: all 0.4s;
   }
+ 
   
   /* .project p */
   .project p {
@@ -44,3 +45,32 @@
     border-bottom: 1px solid rgb(201, 201, 201);
   }
   
+
+  
+@media (max-width: 768px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding: 5px 10px 5px 10px;
+    border-top: 1px solid rgb(201, 201, 201);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .modal {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* .projects .modal img */
+  .modal img {
+    height: auto;
+  }
+}
