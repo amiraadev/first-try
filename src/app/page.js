@@ -29,7 +29,15 @@ export default function Home() {
 
   return (
     // <main className={styles.main}>
-    <main >
+
+  //   <div className="w-full bg-red-400">
+  //       <div>hello</div>
+  //       <div>hello</div>
+  //       <div>hello</div>
+  //       <div>hello</div>
+  //       <div>hello</div>
+  // </div>
+    <>
         <AnimatePresence mode='wait'>
           {isLoading && <Preloader />}
         </AnimatePresence>
@@ -38,6 +46,6 @@ export default function Home() {
         <Projects />
         <SlidingImages />
         <Contact />  
-    </main>
+    </>
   )
 }

@@ -45,13 +45,18 @@ export default function Home() {
 
   return (
     <motion.main variants={slideUp} initial="initial" animate="enter" className="landing">
-      <div className='w-full flex justify-center '>
+      {/* <div className='w-full flex justify-center '>
         
      <img
       src="/images/allagui2.png"
       alt="background"
   />
-      </div>
+      </div> */}
+         <Image 
+        src="/images/background.jpg"
+        fill={true}
+        alt="background"
+      />
       <div className="sliderContainer">
         <div ref={slider} className="slider">
           <p ref={firstText}>Software Engineer -</p>
