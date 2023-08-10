@@ -77,7 +77,7 @@ export default function index() {
                                                     <Image 
                                                     fill={true}
                                                     alt={"image"}
-                                                    src={`/images/${project.src}`}
+                                                    src={`./images/${project.src}`}
                                                     // onClick={handleClick}
                                                     />
                                                 </a>
@@ -97,7 +97,7 @@ export default function index() {
                             <div key={index} className="imageContainer">
                             {/* Wrap the Image component with an anchor tag */}
                             <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                <Image fill={true} alt={"image"} src={`/images/${project.src}`} />
+                                <Image fill={true} alt={"image"} src={`./images/${project.src}`} />
                             </a>
                             </div>
                         </div>

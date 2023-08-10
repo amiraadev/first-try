@@ -15,7 +15,7 @@ export default function index({index, title,image,color, manageModal}) {
                         <div className="md:hidden modal my-10" style={{backgroundColor: color}} key={`modal_${index}`}>
                             
                                 <Image 
-                                src={`/images/${image}`}
+                                src={`./images/${image}`}
                                 width={300}
                                 height={0}
                                 alt="image"
