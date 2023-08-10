@@ -55,6 +55,30 @@ export default function index() {
                         </a> 
                         </Rounded>
                 </div>
+               
+                <div className="mobile-screen flex flex-row justify-between mt-8 mb-2 md:hidden">
+                        <div>
+                                <span>
+                                    <h3>Version</h3>
+                                    <p>2023 © Edition</p>
+                                </span>
+                        </div>
+                        <div>
+                            <span>
+                                <h3>socials</h3>
+                                <a href='https://github.com/amirticha' target="_blank" rel="noopener noreferrer">
+                                    <Magnetic>
+                                        <p>Github</p>
+                                    </Magnetic>
+                                </a>
+                            </span>
+                            <a href='https://www.linkedin.com/in/allagui-amira/'  target="_blank" rel="noopener noreferrer">
+                                    <Magnetic>
+                                        <p>Linkedin</p>
+                                    </Magnetic>
+                                </a>                    
+                        </div>
+                </div>
                 <div className="info">
                     <div>
                         <span>
@@ -78,6 +102,8 @@ export default function index() {
                             </a>                    
                     </div>
                 </div>
+
+         
             </div>
         </motion.div>
     )
