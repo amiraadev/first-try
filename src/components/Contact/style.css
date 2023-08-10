@@ -108,6 +108,7 @@
   .contact .body .info {
     display: flex;
     justify-content: space-between;
+    /* margin-top: 200px; */
     margin-top: 110px;
     padding: 20px;
   }
