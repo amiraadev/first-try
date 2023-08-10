@@ -27,16 +27,17 @@ export default function Index({page}) {
     const curve = {
         initial: {
             d: initialPath,
-            transition: {duration: 0.4, ease: [0.3, 0, 0, 0]}
+            transition: {duration: 0.2}
         },
         exit: {
             d: targetPath,
-            transition: {duration: 0.4, ease: [0.3, 0, 0, 0], delay: 0.3}
+            transition: {duration: 0.2, delay: 0.3}
         }
     }
 
     return (
         <motion.div variants={slideUp} initial="initial" exit="exit" className="introduction">
+            
             {dimension.width > 0 && 
             <>
                 <motion.p variants={opacity} initial="initial" animate="enter"><span></span>{words[index]}</motion.p>
