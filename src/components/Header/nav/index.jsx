@@ -16,6 +16,10 @@ const navItems = [
     title: "About",
     href: "/About",
   },
+  // {
+  //   title: "Work",
+  //   href: "/Work",
+  // },
   {
     title: "Contact",
     href: "/Email",

@@ -3,10 +3,8 @@ import  './styles.css';
 export default function index() {
   return (
     <div className="footer">
-        <a>Awwwards</a>
-        <a>Instagram</a>
-        <a>Dribble</a>
-        <a>LinkedIn</a>
+         <a href='https://github.com/amirticha' target="_blank" rel="noopener noreferrer">Github</a>
+         <a href='https://www.linkedin.com/in/allagui-amira/'  target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
   )
 }
