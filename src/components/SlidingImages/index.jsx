@@ -72,18 +72,18 @@ export default function index() {
                                 window.location.href = project.link;
                               };
                             return <div className="project" style={{backgroundColor: project.color}} >
-                                <div key={index} className="imageContainer">
-                                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                    <Image 
-                                    fill={true}
-                                    alt={"image"}
-                                    src={`/images/${project.src}`}
-                                    // onClick={handleClick}
-                                    />
-                                </a>
+                                            <div key={index} className="imageContainer">
+                                                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                                    <Image 
+                                                    fill={true}
+                                                    alt={"image"}
+                                                    src={`/images/${project.src}`}
+                                                    // onClick={handleClick}
+                                                    />
+                                                </a>
 
-                                </div>
-                            </div>
+                                            </div>
+                                    </div>
                         })
                     }
                 </motion.div>
