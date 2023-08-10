@@ -38,7 +38,7 @@ export default function index() {
                     className="flex " 
                     > 
                     <Image 
-                        src="/images/allagui5.jpg"
+                        src="./images/allagui5.jpg"
                         width={"800"}
                         height={"600"}
                         data-scroll data-scroll-speed="0.3"
