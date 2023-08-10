@@ -161,3 +161,24 @@
     font-size: 1em;
   }
   
+
+  
+@media (max-width: 768px) {
+  .contact .body {
+    padding-top: 400px;
+    width: 100%;
+    max-width: 768px;
+    background-color: #141516;
+  }
+
+  .contact .body .title {
+    border-bottom: 1px solid rgb(134, 134, 134);
+    padding-bottom: 100px;
+    margin-left: 50px;
+    margin-right: -130px;
+    position: relative;
+  }
+
+  
+  
+}

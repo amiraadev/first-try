@@ -29,13 +29,13 @@ export default function Home() {
 
   return (
     <>
-        <AnimatePresence mode='wait'>
+        {/* <AnimatePresence mode='wait'>
           {isLoading && <Preloader />}
         </AnimatePresence>
         <Landing />
         <Description />
         <Projects />
-        <SlidingImages />
+        <SlidingImages /> */}
         <Contact />  
     </>
   )
