@@ -73,11 +73,15 @@ export default function index() {
                               };
                             return <div className="project" style={{backgroundColor: project.color}} >
                                 <div key={index} className="imageContainer">
+                                <a href={project.link} target="_blank" rel="noopener noreferrer">
                                     <Image 
                                     fill={true}
                                     alt={"image"}
                                     src={`/images/${project.src}`}
-                                    onClick={handleClick}/>
+                                    // onClick={handleClick}
+                                    />
+                                </a>
+
                                 </div>
                             </div>
                         })
@@ -92,7 +96,7 @@ export default function index() {
                         <div className="project" style={{ backgroundColor: project.color }}>
                             <div key={index} className="imageContainer">
                             {/* Wrap the Image component with an anchor tag */}
-                            <a href={project.link} target="_blank" rel="noopener noreferrer" >
+                            <a href={project.link} target="_blank" rel="noopener noreferrer">
                                 <Image fill={true} alt={"image"} src={`/images/${project.src}`} />
                             </a>
                             </div>

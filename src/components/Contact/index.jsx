@@ -65,13 +65,13 @@ export default function index() {
                     <div>
                         <span>
                             <h3>socials</h3>
-                            <a href='https://github.com/amirticha'>
+                            <a href='https://github.com/amirticha' target="_blank" rel="noopener noreferrer">
                                 <Magnetic>
                                     <p>Github</p>
                                 </Magnetic>
                             </a>
                         </span>
-                           <a href='https://www.linkedin.com/in/allagui-amira/'>
+                           <a href='https://www.linkedin.com/in/allagui-amira/'  target="_blank" rel="noopener noreferrer">
                                 <Magnetic>
                                     <p>Linkedin</p>
                                 </Magnetic>
