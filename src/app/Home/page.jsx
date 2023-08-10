@@ -1,7 +1,8 @@
 'use client';
 import { useEffect, useState } from 'react'
 import { AnimatePresence } from 'framer-motion';
-import PrePage from '../../components/PrePage';
+import PreHome from '../../components/PreHome';
+import Preloader from '../../components/Preloader';
  import Landing from '../../components/Landing';
  import Projects from '../../components/Projects';
  import Description from '../../components/Description';
@@ -31,7 +32,7 @@ export default function Home() {
     // <main className={styles.main}>
     <main >
         <AnimatePresence mode='wait'>
-        {isLoading && <PrePage page="Home" />}
+        {isLoading && <Preloader page="Home" />}
          </AnimatePresence>
         <Landing />
         <Description />
