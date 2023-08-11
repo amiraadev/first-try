@@ -56,7 +56,7 @@ export default function index() {
                 <Magnetic>
                     <div className="el">
                          <Link 
-                         href="/About">About
+                         href="/about">About
                         </Link>
                         <div className="indicator"></div>
                     </div>
