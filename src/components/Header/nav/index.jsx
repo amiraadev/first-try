@@ -10,19 +10,19 @@ import Footer from './Footer';
 const navItems = [
   {
     title: "Home",
-    href: "allaguiamira/",
+    href: "/",
   },
   {
     title: "About",
-    href: "allaguiamira/About",
+    href: "/About",
   },
   // {
   //   title: "Work",
   //   href: "/Work",
   // },
   {
-    title: "Contactssss",
-    href: "allaguiamira//Email",
+    title: "Contacts",
+    href: "/Email",
   },
 ]
 
