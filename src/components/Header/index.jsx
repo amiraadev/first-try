@@ -8,7 +8,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Rounded from '../../common/RoundedButton';
 import Magnetic from '../../common/Magnetic';
-import Link from './nav/Link';
+import Link from 'next/link';
 
 export default function index() {
     const header = useRef(null);
