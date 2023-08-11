@@ -7,22 +7,22 @@ const slider1 = [
     {
         color: "#4d5055",
         src: "projects/food-ordering-app.png",
-        link:"https://amirticha.github.io/food-ordering-app/"
+        link:"https://amiraallagui.github.io/food-ordering-app/"
     },
     {
         color: "#4d5055",
         src: "projects/gym-app.png",
-        link:"https://amirticha.github.io/gym-app/"
+        link:"https://amiraallagui.github.io/gym-app/"
     },
     {
         color: "#4d5055",
         src: "funny.jpg",
-        link:"https://amirticha.github.io/gym-app/"
+        link:"https://amiraallagui.github.io/gym-app/"
     },
     {
         color: "#4d5055",
         src: "google.jpg",
-        link:"https://amirticha.github.io/gym-app/"
+        link:"https://amiraallagui.github.io/gym-app/"
     }
 ]
 
@@ -30,22 +30,22 @@ const slider2 = [
     {
         color: "#4d5055",
         src: "maven.jpg",
-        link:"https://amirticha.github.io/gym-app/"
+        link:"https://amiraallagui.github.io/gym-app/"
     },
     {
         color: "#4d5055",
         src: "panda.jpg",
-        link:"https://amirticha.github.io/gym-app/"
+        link:"https://amiraallagui.github.io/gym-app/"
     },
     {
         color: "#4d5055",
         src: "powell.jpg",
-        link:"https://amirticha.github.io/gym-app/"
+        link:"https://amiraallagui.github.io/gym-app/"
     },
     {
         color: "#4d5055",
         src: "wix.jpg",
-        link:"https://amirticha.github.io/gym-app/"
+        link:"https://amiraallagui.github.io/gym-app/"
     }
 ]
 
