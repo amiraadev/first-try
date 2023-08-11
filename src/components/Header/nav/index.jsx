@@ -10,11 +10,11 @@ import Footer from './Footer';
 const navItems = [
   {
     title: "Home",
-    href: "/",
+    href: "allaguiamira/",
   },
   {
     title: "About",
-    href: "/About",
+    href: "allaguiamira/About",
   },
   // {
   //   title: "Work",
@@ -22,7 +22,7 @@ const navItems = [
   // },
   {
     title: "Contact",
-    href: "/Email",
+    href: "allaguiamira//Email",
   },
 ]
 
