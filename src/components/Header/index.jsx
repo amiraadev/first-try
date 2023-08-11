@@ -46,19 +46,25 @@ export default function index() {
             <div className="nav">
                 <Magnetic>
                     <div className="el">
-                        <a href='/'>Home</a>
+                         <Link 
+                         href="/">Home
+                        </Link>
                         <div className="indicator"></div>
                     </div>
                 </Magnetic>
                 <Magnetic>
                     <div className="el">
-                        <a href='/About'>About</a>
+                         <Link 
+                         href="/About">About
+                        </Link>
                         <div className="indicator"></div>
                     </div>
                 </Magnetic>
                 <Magnetic>
                     <div className="el">
-                        <a href='/Email'>Contact</a>
+                         <Link 
+                         href='/Email'>Contact
+                        </Link>
                         <div className="indicator"></div>
                     </div>
                 </Magnetic>
